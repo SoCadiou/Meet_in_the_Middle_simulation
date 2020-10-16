@@ -510,7 +510,7 @@ lasso <-
     Y_predit <- predict(cvfit, newx = data_Xs, s = "lambda.min")
     Y_predit <- Y_predit[rownames(Y_predit), ]
     
-    ##liste des CPG selectionnés
+    ##liste des CPG selectionnÃ©s
     tmp_coeffs <- coef(cvfit, s = "lambda.min")
     cg_select <-
       data.frame(name = tmp_coeffs@Dimnames[[1]][tmp_coeffs@i + 1], coefficient = tmp_coeffs@x)
@@ -601,7 +601,7 @@ specificity <- function(truepred, predfound, n_base) {
 #################################################################
 ##it first generates datasets, then applies methods and then assessed
 ##their performance
-##simulation d'un jeu, application des méthodes, évaluation des méthodes
+##simulation d'un jeu, application des mÃ©thodes, Ã©valuation des mÃ©thodes
 f0 <- function(x) {
   ##important: the parallelization is made on the seed
   set.seed(x)
