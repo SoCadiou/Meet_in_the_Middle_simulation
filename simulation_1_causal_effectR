@@ -700,7 +700,7 @@ lasso <-
   Y_predit<-predict(cvfit,newx=data_Xs, s = "lambda.min")
   Y_predit<-Y_predit[rownames(Y_predit),]
   
-  ##liste des CPG selectionnés
+  ##liste des CPG selectionnÃ©s
   tmp_coeffs <- coef(cvfit, s ="lambda.min")
   cg_select<-data.frame(name = tmp_coeffs@Dimnames[[1]][tmp_coeffs@i + 1], coefficient = tmp_coeffs@x)
   
