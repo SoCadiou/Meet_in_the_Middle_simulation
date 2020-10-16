@@ -1,4 +1,4 @@
-# Meet_in_the_Middle_simulation
+# Meet in the Middle simulation
 Simulation script from Cadiou et al., 2021 (link to add after publication).
 Instructions on how to use Rscripts are available on the Rscripts themselves.
 Seeds need to be specified in order to make results reproducible.
