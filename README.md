@@ -12,7 +12,7 @@ In a second script (simulation_2_reverse_causal_effect), the outcome layer is ge
 
 8 methods aiming at selecting true predictors from the first (eg exposome) biological layer are implemented and their performance assessed in term of sensitivity and false detection proportion. 4 of them use the intermediary (eg methylome) layer.
 
-In (Cadiou et al., 2021), real data from the Helix project [(Vrihjeid et al., 2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4048258/) were used. These data are not publicly available and thus not provided here. 
+In (Cadiou et al., 2021), real data from the Helix project [(Vrihjeid et al., 2014)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4048258/) were used. These data are not publicly available and thus not provided here but can be obtained under request to the [Helix consortium](https://www.projecthelix.eu/), after signature of a Data Transfer Agreement. 
 
 For more details, please refer to (Cadiou et al., 2021).
 
